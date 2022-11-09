@@ -29,6 +29,15 @@ All JavaScript values, except primitives, are objects.
 # {_x: 0,_y: 0,create: function(x,y){var obj = Object.create(this);obj.setX(x);obj.setY(y);return obj;},}
 # Can you make a “class” based alternative to it? Using Javascript OOP features.
 
+class Vector{
+       constructor(x,y)
+       {
+           this.x=x;
+           this.y=y;
+       }
+   }
+   Vector v = new Vector(3,4);
+   console.log(v);
 
 # 3.Do you think javascript is the language of the future?
 reasons which makes it more sustainable language are:
@@ -36,4 +45,4 @@ reasons which makes it more sustainable language are:
 -works for both backend and frontend
 -all major libraraies use JS like react,angular,vue,etc.
 -Large community of developers
--regular updates every year since 2015 promotes adaptability,etc makes it language which is going to be around for next 20years.
+-regular updates every year since 2015 promotes adaptability,etc makes it language which is going to be around for next at least 20 years.
