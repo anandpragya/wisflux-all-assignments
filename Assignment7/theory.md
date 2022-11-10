@@ -13,7 +13,7 @@ console.log(3 == "3"); // true
 console.log(3 === "3"); // false.
 
 Double equals is known as the abstract equality comparison operator while triple equals to is termed the strict equality comparison operator. The difference between them :
-Abstract equality will not try to resolve the data type while making a comparison. Strict equality will return false if the data types are different.
+Abstract equality will try to resolve the data type while making a comparison. Strict equality will return false if the data types are different.
 
 # 3.Difference b/w arrow functions and regular functions?
 -ARROW FUNCTIONS
