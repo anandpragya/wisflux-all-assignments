@@ -1,2 +1,2 @@
 # wisflux-all-assignments
-this repo contains all individual assignments of me.
+this repo contains all individual assignments of mine.
